@@ -1,0 +1,61 @@
+.balloon-input {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.balloon-input input {
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 12px;
+  color: #0e1446;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  outline: none;
+  padding: 18px 10px 18px 15px;
+  text-indent: 90px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.balloon-input input + label {
+  color: #828282;
+  display: inline-block;
+  font-size: 14px;
+  left: 0;
+  padding: 15px 20px;
+  position: absolute;
+  top: 0;
+  transform-origin: 2px 2px;
+  transform: rotate(0);
+  transition: all 0.3s ease-in-out;
+}
+.balloon-input input + label:after {
+  border: 3px solid transparent;
+  content: "";
+  width: 0;
+  height: 0;
+  left: 50%;
+  margin-left: -3px;
+  position: absolute;
+  top: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.balloon-input input:focus,
+.balloon-input input:active {
+  text-indent: 0;
+}
+.balloon-input input:focus + label,
+.balloon-input input:active + label {
+  background-color: #005cee;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 12px;
+  transform: translateY(-30px);
+}
+.balloon-input input:focus + label:after,
+.balloon-input input:active + label:after {
+  border-top: 4px solid #005cee;
+}
