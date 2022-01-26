@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loginRight {
+  max-width: 392px;
+}
+
+.loginTitle {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.loginForm {
+  margin-top: 32px;
+}
+
+.formGroup:nth-child(1) {
+  margin-bottom: 16px;
+}
+
+.btnSubmit {
+  margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+  .loginTitle {
+    font-size: 28px;
+  }
+  .loginRight {
+    padding: 20px;
+  }
+}
