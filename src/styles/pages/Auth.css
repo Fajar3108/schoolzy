@@ -1,4 +1,4 @@
-.login {
+.auth {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -7,7 +7,7 @@
   background-color: #f6f6f6f6;
 }
 
-.login .container {
+.auth .container {
   height: 100%;
   width: 100%;
   max-width: 1440px;
@@ -20,11 +20,11 @@
   overflow: hidden;
 }
 
-.login-form {
+.auth-form {
   margin-top: 24px;
 }
 
-.login-left {
+.auth-left {
   background-image: url("../../assets/auth/bg.svg");
   background-position: center;
   background-size: cover;
@@ -34,12 +34,12 @@
   border-radius: 100px;
 }
 
-.login-right {
+.auth-right {
   width: 50%;
   padding: 0 7vw;
 }
 
-.login-title {
+.auth-title {
   font-size: 38px;
   margin-bottom: 16px;
 }
@@ -49,30 +49,30 @@
 }
 
 @media (max-width: 768px) {
-  .login-title {
+  .auth-title {
     font-size: 28px;
   }
-  .login-left {
+  .auth-left {
     display: none;
   }
-  .login-right {
+  .auth-right {
     width: 100%;
   }
 }
 
 @media (max-width: 1440px) {
-  .login .container {
+  .auth .container {
     max-height: 100vh;
     max-width: 100%;
     border-radius: 0;
   }
-  .login-left {
+  .auth-left {
     border-radius: 0;
   }
 }
 
 @media (min-width: 2880px) {
-  .login-right {
+  .auth-right {
     padding: 180px;
   }
 }
