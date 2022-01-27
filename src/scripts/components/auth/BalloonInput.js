@@ -4,7 +4,7 @@ const BalloonInput = ({ type, placeholder, value, id, label }) => {
     return (
         <div className="balloon-input">
             <input type={type} id={id} placeholder={placeholder} value={value} />
-            <label for={id}>{label}</label>  
+            <label htmlFor={id}>{label}</label>  
         </div>
     );
 }
