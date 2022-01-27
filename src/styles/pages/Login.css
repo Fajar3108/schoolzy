@@ -5,15 +5,15 @@
   min-height: 100vh;
 }
 
-.loginForm {
+.login-form {
   margin-top: 24px;
 }
 
-.loginRight {
+.login-right {
   max-width: 392px;
 }
 
-.loginTitle {
+.login-title {
   font-size: 38px;
   margin-bottom: 16px;
 }
@@ -22,15 +22,11 @@
   margin-bottom: 16px;
 }
 
-.formGroup:nth-child(1) {
-  margin-bottom: 16px;
-}
-
 @media (max-width: 480px) {
-  .loginTitle {
+  .login-title {
     font-size: 28px;
   }
-  .loginRight {
+  .login-right {
     padding: 20px;
   }
 }
