@@ -1,11 +1,21 @@
+import { Route, Routes } from 'react-router-dom';
 import '../styles/App.css';
-import { Register } from './pages';
+import { Login, Register } from './pages';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Register />
-    </div>
+    <Main />
+  );
+}
+
+const Main = () => {
+  return (
+    <main className="main">
+      <Routes>
+        <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
+      </Routes>
+    </main>
   );
 }
 

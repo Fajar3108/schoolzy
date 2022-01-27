@@ -1,16 +1,7 @@
-button {
-  cursor: pointer;
+a {
+  text-decoration: none;
 }
 
-.btn-submit {
-  background-color: #005cee;
-  border: none;
-  border-radius: 12px;
-  color: #ffffff;
-  display: block;
-  font-size: 16px;
-  outline: none;
-  padding: 18px 0;
-  text-align: center;
-  width: 100%;
+button {
+  cursor: pointer;
 }

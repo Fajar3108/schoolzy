@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../../../styles/pages/Auth.css';
 import { BalloonInput } from "../../components";
 
@@ -15,6 +16,7 @@ const Register = () => {
                         <BalloonInput type="password" id="password" label="Password" placeholder="************" />
                         <BalloonInput type="password" id="confirmPassword" label="Ulangi" placeholder="************" />
                         <button className="btn-submit">Daftar</button>
+                        <Link to="/login" className="auth-link">Sudah punya akun? Masuk</Link>
                     </div>
                 </div>
             </div>

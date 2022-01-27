@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../../../styles/pages/Auth.css';
 import { BalloonInput } from '../../components';
 
@@ -13,6 +14,7 @@ const Login = () => {
                         <BalloonInput type="email" id="email" label="Email" placeholder="example@email.com" />
                         <BalloonInput type="password" id="password" label="Password" placeholder="************" />
                         <button className="btn-submit">Masuk</button>
+                        <Link to="/register" className="auth-link">Belum punya akun? Daftar</Link>
                     </div>
                 </div>
             </div>
