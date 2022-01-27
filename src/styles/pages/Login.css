@@ -5,25 +5,25 @@
   min-height: 100vh;
 }
 
+.loginForm {
+  margin-top: 24px;
+}
+
 .loginRight {
   max-width: 392px;
 }
 
 .loginTitle {
   font-size: 38px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
-.loginForm {
-  margin-top: 32px;
+.balloon-input {
+  margin-bottom: 16px;
 }
 
 .formGroup:nth-child(1) {
   margin-bottom: 16px;
-}
-
-.btnSubmit {
-  margin-top: 24px;
 }
 
 @media (max-width: 480px) {
